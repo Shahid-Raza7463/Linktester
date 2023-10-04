@@ -42,6 +42,11 @@ class ProxiesController extends Controller
     {
         return view('Admin.proxies.create');
     }
+    // // create proxy form
+    // public function create()
+    // {
+    //     return view('Admin.proxies.create');
+    // }
 
     // Store a newly created proxy in proxies table.
     public function store(Request $request)
